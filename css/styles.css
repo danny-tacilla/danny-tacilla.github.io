@@ -1,0 +1,125 @@
+img{
+	max-width: 100%;
+}
+.vida{
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+
+}
+
+/*Estilos generales*/
+.back-v{
+	background: #015761;
+}
+.back-p{
+	background: #F1F0F0;
+}
+.mtop10{
+	margin-top: 10px;
+}
+.menu ul li a {
+	color: #fff;
+}
+.active{
+	
+	background: #F6DB4E;
+	border-radius: 5px;
+}
+.titulo{
+	color: #F6DB4E;
+	padding-top: 10px;
+	font-family: 'Lobster', cursive;
+}
+
+.titulo-2{
+	margin: 80px;
+}
+.h{
+	color: #F6DB4E;
+	font-size: 30px;
+
+}
+.b{
+	color: #fff;
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+
+}
+.p{
+	color: #fff;
+	font-size: 20px;
+}
+.yo{
+	text-align: center;
+	margin-top: 20px;
+	color: #015761;
+	font-weight: bold;
+	font-size: 50px;
+}
+.cb{
+	color: #fff;
+}
+.mr10{
+	margin-right: 6px;
+}
+
+
+
+.redes{
+	position: fixed;
+	right: 0;
+	top: 200px;
+	z-index: 3000;
+}
+
+.redes ul{
+	list-style: none;
+}
+.redes ul li a{
+	display: inline-block;
+	color: #fff;
+	background: #000;
+	padding: 10px 15px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.redes ul li .fb{
+	background: #3b5998;
+}
+.redes ul li .go{
+	background: red;
+}
+.redes ul li .tw{
+	background: #00abf0;
+}
+.redes ul li .ist{
+	background: #BF29BB;
+}
+
+.redes ul li .you{
+	background: #E8301A;
+}
+.icon{
+	font-size: 30px;
+	border-radius: 5px;
+}
+
+.subir{
+	width: auto;
+	height: 40px;
+}
+
+/*Responsive*/
+@media (max-width: 768px) {
+
+  .nav1 ul li a{
+  	text-align: center;
+
+  }
+  .nav1 ul li {
+  	margin-top: 10px;
+
+
+  }
+
+}
