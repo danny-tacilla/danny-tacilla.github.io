@@ -15,7 +15,7 @@ let agregar = (data) => {
 let raiz = (d) => {
   let r = getResultado();
   if (r != 0 || isNaN(d)) {
-    setResultado(Math.sqrt(r).toFixed(5));
+    setResultado(Math.sqrt(r).toFixed(10));
   } else {
     setResultado(d);
   }
@@ -32,7 +32,7 @@ let borrar = (b) => {
 let calcular = () => {
   let r = eval(getResultado());
 
-  setResultado(r);
+  setResultado(r.toFixed(10));
 };
 let limpiar = () => {
   setResultado(0);
