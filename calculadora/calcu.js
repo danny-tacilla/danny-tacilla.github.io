@@ -31,7 +31,6 @@ let borrar = (b) => {
 };
 let calcular = () => {
   let r = eval(getResultado());
-
   setResultado(r.toFixed(10));
 };
 let limpiar = () => {
